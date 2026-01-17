@@ -32,29 +32,45 @@ public class MultiToolItem extends BowItem {
         super(settings);
     }
 
+    @Override
     public float getMiningSpeed(ItemStack stack, BlockState state) {
+        // Fast mining for pickaxe, axe, shovel, and hoe blocks
         if (state.isIn(BlockTags.PICKAXE_MINEABLE) ||
                 state.isIn(BlockTags.AXE_MINEABLE) ||
                 state.isIn(BlockTags.SHOVEL_MINEABLE) ||
                 state.isIn(BlockTags.HOE_MINEABLE)) {
             return 9.0F;
         }
+        // Fast mining for wool (sword efficient)
+        if (state.isIn(BlockTags.SWORD_EFFICIENT)) {
+            return 9.0F;
+        }
+        // Fast mining for leaves
+        if (state.isIn(BlockTags.LEAVES)) {
+            return 9.0F;
+        }
         return 1.0F;
     }
 
-    public boolean isSuitableFor(BlockState state) {
-        int i = 3; // diamond level
-        if (i < 3 && state.isIn(BlockTags.NEEDS_DIAMOND_TOOL)) {
-            return false;
-        } else if (i < 2 && state.isIn(BlockTags.NEEDS_IRON_TOOL)) {
-            return false;
-        } else if (i < 1 && state.isIn(BlockTags.NEEDS_STONE_TOOL)) {
-            return false;
-        }
-        return state.isIn(BlockTags.PICKAXE_MINEABLE) ||
+    @Override
+    public boolean isCorrectForDrops(ItemStack stack, BlockState state) {
+        // Diamond level (3) - can mine everything
+        // This ensures proper drops for stone, obsidian, etc.
+        if (state.isIn(BlockTags.PICKAXE_MINEABLE) ||
                 state.isIn(BlockTags.AXE_MINEABLE) ||
                 state.isIn(BlockTags.SHOVEL_MINEABLE) ||
-                state.isIn(BlockTags.HOE_MINEABLE);
+                state.isIn(BlockTags.HOE_MINEABLE)) {
+            return true;
+        }
+        // Wool and similar blocks
+        if (state.isIn(BlockTags.SWORD_EFFICIENT)) {
+            return true;
+        }
+        // Leaves
+        if (state.isIn(BlockTags.LEAVES)) {
+            return true;
+        }
+        return false;
     }
 
     @Override
