@@ -1,3 +1,5 @@
+rootProject.name = 'multi-tool-template-1.21.1'
+
 pluginManagement {
 	repositories {
 		maven {

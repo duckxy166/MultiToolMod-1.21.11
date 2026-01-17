@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "multitool:wooden_multi_tool",
+        "multitool:stone_multi_tool",
+        "multitool:iron_multi_tool",
+        "multitool:golden_multi_tool",
+        "multitool:diamond_multi_tool",
+        "multitool:netherite_multi_tool"
+    ]
+}

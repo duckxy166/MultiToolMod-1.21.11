@@ -1,6 +1,6 @@
-# Multi-Tool Mod for Minecraft 1.21.11
+# Multi-Tool Mod for Minecraft 1.21.1
 
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-green.svg)](https://minecraft.net)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green.svg)](https://minecraft.net)
 [![Fabric](https://img.shields.io/badge/Mod%20Loader-Fabric-blue.svg)](https://fabricmc.net)
 
 ---
@@ -29,7 +29,7 @@ The Multi-Tool currently supports the following functionalities:
 
 ### Known Limitations
 - Enchant able
-- ❌ **Crafting Recipe**: Not available yet - /give @s multitool:multi_tool
+- ❌ **Crafting Recipe**: ✅ Available for all tiers!
 
 ---
 
@@ -57,7 +57,7 @@ Multi-Tool รองรับความสามารถต่อไปนี
 
 ### ข้อจำกัดที่ทราบ
 - อุปกรณ์ multiTool สามารถ Enchant ได้
-- ❌ **สูตรคราฟต์**: ยังไม่มี - /give @s multitool:multi_tool
+- ❌ **สูตรคราฟต์**: ✅ มีครบทุกระดับ!
 
 ---
 
@@ -65,6 +65,6 @@ Multi-Tool รองรับความสามารถต่อไปนี
 
 - **Developer**: Duckxy
 - **Mod Loader**: [Fabric](https://fabricmc.net/)
-- **Minecraft Version**: 1.21.11
+- **Minecraft Version**: 1.21.1
 
 ---
