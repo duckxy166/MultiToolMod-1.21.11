@@ -1,5 +1,3 @@
-rootProject.name = 'multi-tool-template-1.21.1'
-
 pluginManagement {
 	repositories {
 		maven {
@@ -10,3 +8,5 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
+
+rootProject.name = 'multi-tool-template-1.21.1'
