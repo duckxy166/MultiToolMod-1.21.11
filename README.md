@@ -68,7 +68,7 @@ Craft it just like this! (Replace materials for each tier)
 
 1. Install **Fabric Loader** for Minecraft 1.21.1
 2. Download **Fabric API**
-3. Drop `fabric-api.jar` and `multitool-1.0.0.jar` into your `mods` folder.
+3. Drop `fabric-api.jar` and `multitool-1.0.1.jar` into your `mods` folder.
 4. Enjoy!
 
 ---
