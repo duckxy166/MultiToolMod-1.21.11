@@ -31,7 +31,7 @@ Available in 6 tiers, matching vanilla progression!
 | 🪵 **Wooden** | 59 | 0 (Wood) | Stick |
 | 🪨 **Stone** | 131 | 1 (Stone) | Cobblestone |
 | ⛓️ **Iron** | 250 | 2 (Iron) | Iron Ingot |
-| 🥇 **Golden** | 32 | 0 (Wood - Fast!) | Gold Ingot |
+| 🥇 **Golden** | 32 | 0 (Fast!) | Gold Ingot |
 | 💎 **Diamond** | 1561 | 3 (Diamond) | Diamond |
 | 🔥 **Netherite** | 2031 | 4 (Netherite - Fireproof!) | Netherite Ingot |
 
